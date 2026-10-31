@@ -25,14 +25,32 @@ In modern enterprise environments, security operations generate massive volumes 
 
 #### Attack Types Distribution (Lollipop Chart)
 Evaluates frequency and distribution across various threat categories and attack vectors:
-
 ![Attack Types Lollipop Chart](./data/attack_types_lollipop_chart.png)
 
 #### Regional Risk Exposure by Severity
 Cross-correlates regional vulnerability concentration against assessed incident severity levels:
-
 ![Regional Severity Chart](./data/regional_severity_chart.png)
 
 ---
 
 ## 🏗️ System Architecture & Directory Structure
+
+```text
+grc-threat-intelligence-pipeline-PowerBI-python/
+│
+├── data/                                      # Processed datasets, CSV exports & visualization plots
+│   ├── AgentAI_GRC_Executive_Report.md        # Generated executive intelligence briefing
+│   ├── attack_types.csv                       # Categorized threat vector metrics
+│   ├── attack_types_lollipop_chart.png        # Attack types frequency distribution chart
+│   ├── eda_summary.csv                        # Exploratory data analysis summary metrics
+│   ├── incidents_clean.csv                    # Cleaned and normalized incident event log
+│   ├── incident_trends.csv                    # Temporal threat frequency dataset
+│   ├── powerbi_dashboard_preview.png          # High-resolution Power BI dashboard preview
+│   ├── regional_grc_summary.csv               # Regional governance risk summary dataset
+│   └── regional_severity_chart.png            # Regional risk exposure by severity chart
+│
+├── scripts/                                   # Core Python ETL and pipeline scripts
+│   └── etl_pipeline.py                        # Data ingestion, normalization, and export script
+│
+├── grc_dash.pbix                              # Native Microsoft Power BI Desktop executive report
+└── README.md                                  # Repository documentation & visual analytics report
