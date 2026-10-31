@@ -24,6 +24,17 @@ All pipeline plots and threat classification figures are automatically generated
 | **Attack Vector Heatmap** | Correlation matrix of authentication log anomalies & port scans | [`data/attack_vector_heatmap.png`](./data/attack_vector_heatmap.png) |
 | **Temporal Threat Trends** | Time-series analysis of brute-force patterns and unauthorized superuser escalation | [`data/temporal_threat_trends.png`](./data/temporal_threat_trends.png) |
 
+#### Visual Previews:
+
+**Incident Harm Classification**
+![Incident Harm Classification](./data/incident_classification.png)
+
+**Attack Vector Heatmap**
+![Attack Vector Heatmap](./data/attack_vector_heatmap.png)
+
+**Temporal Threat Trends**
+![Temporal Threat Trends](./data/temporal_threat_trends.png)
+
 ---
 
 ## 🏗️ Project Architecture & File Structure
