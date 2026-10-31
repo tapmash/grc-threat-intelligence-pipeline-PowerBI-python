@@ -1,0 +1,13 @@
+type_code,type_name,incident_count,description
+GOV,AI Governance & Policy Failure,62,"Violations of regulatory policies, unaligned enterprise deployment, or compliance failures."
+WEAPON,AI Weaponization & Malicious Tooling,50,"Deliberate use of generative AI or autonomous agents to develop offensive malware, automated attacks, or cyberweapons."
+INFRA,AI Infrastructure & Cluster Compromise,29,"Compromise of backend GPU clusters, vector databases, inference endpoints, or orchestration pipelines."
+OTHER,Unclassified AI Incident,24,Other emerging and multi-vector AI agent security incidents.
+CRED,Credential & Secret Theft,22,"Exfiltration or compromise of API keys, authentication tokens, and service credentials by or through AI agents."
+ROGUE,Autonomous Rogue Agent Behavior,22,"Unintended autonomous loops, unconstrained spending, resource exhaustion, or unintended destruction of production data."
+EVAL,Benchmark & Evaluation Poisoning,16,"Data contamination, gaming safety benchmarks, or adversarial manipulation of model evaluation leaderboards."
+SANDBOX,Sandbox & Environment Escape,15,"Breakout from Docker containers, WebAssembly sandboxes, or virtual environments by autonomous coding agents."
+MCP,Model Context Protocol (MCP) Exploit,14,Vulnerabilities and unauthorized tool invocations targeting Model Context Protocol servers and agent interfaces.
+IPI,Indirect Prompt Injection (IPI),13,Third-party untrusted data or web context hijacking an LLM agent's execution flow and instructions.
+SUPPLY,AI Supply Chain & Dependency Attack,13,"Backdoored pretrained models, poisoned datasets, compromised agent plugins, or malicious package dependencies."
+EXFIL,Unauthorized Data & Model Exfiltration,2,"Extraction of private system prompts, sensitive customer PII, intellectual property, or proprietary training corpora."
